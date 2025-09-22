@@ -1,48 +1,46 @@
 # Campus Course & Records Manager (CCRM)
 
-A console-based **Java SE project** for managing students, courses, enrollments, grades, transcripts, and file utilities.  
-This project demonstrates **OOP principles, Java Streams, NIO.2, Date/Time API, exception handling, design patterns (Singleton, Builder), enums, and recursion**.
+A **console-based Java SE application** designed to manage **students, courses, enrollments, grades, transcripts, and file utilities**.  
+The project highlights **OOP concepts, Java Streams, NIO.2, Date/Time API, exception handling, enums, recursion, and design patterns (Singleton & Builder)**.
 
 ---
 
 ## 🚀 Features
 
 ### 1. Student Management
-- Add, list, update, deactivate students
-- Print student profile & transcript
+- Add, view, update, or deactivate student records
+- Generate detailed student profiles and transcripts
 
 ### 2. Course Management
-- Add, list, update, deactivate courses
-- Search & filter (by instructor, department, semester) using **Streams API**
+- Create, list, update, or deactivate courses
+- Filter/search courses by instructor, department, or semester using **Streams API**
 
 ### 3. Enrollment & Grading
-- Enroll/Unenroll students into courses
-- Business rules: max credits per semester
-- Record marks & compute GPA
-- Enum `Grade` & `Semester`
-- Transcript generation (using `toString()` + polymorphism)
+- Enroll or remove students from courses
+- Enforce rules like maximum credits per semester
+- Record marks, compute GPA, and generate transcripts
+- Uses enums for `Semester` and `Grade`
+- Polymorphic `toString()` methods for transcript display
 
 ### 4. File Operations (NIO.2)
-- Import/Export CSV files
-- Export students, courses, enrollments
-- Backup exported files into **timestamped folders**
-- Recursive utility → compute backup folder size
+- Import and export CSV-style data for students and courses
+- Backup exported files into **timestamped directories**
+- Recursive utility to calculate backup folder size or perform operations
 
 ### 5. CLI Workflow
-- Menu-driven interface with loops, switch, break/continue
-- Options: Students, Courses, Enrollments, Grades, Import/Export, Backup, Reports, Exit
+- Menu-driven console interface
+- Options for Students, Courses, Enrollments, Grades, Reports, Import/Export, Backup, and Exit
 
 ---
 
 ## 🛠️ Tech Stack
-
 - **Java SE 24**
-- **Maven 3.9+**
-- Uses: Java Streams, NIO.2, Date/Time API, OOP principles, Design Patterns
-
+- **Apache Maven 3.9+**
+- Utilizes Streams, NIO.2, Date/Time API, OOP principles, and design patterns
 
 ### Prerequisites
-- Java 24+
+- Java 24+ installed
 - Apache Maven 3.9+
+
 
 
