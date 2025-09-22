@@ -41,6 +41,3 @@ The project highlights **OOP concepts, Java Streams, NIO.2, Date/Time API, excep
 ### Prerequisites
 - Java 24+ installed
 - Apache Maven 3.9+
-
-
-
